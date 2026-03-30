@@ -1,4 +1,4 @@
-# QML Flood Risk Prediction
+# Hybrid Flood Risk Prediction using Quantum GNN
 
 Hybrid quantum-classical graph learning for flood-risk prediction on a synthetic Indian river-basin dataset.
 
