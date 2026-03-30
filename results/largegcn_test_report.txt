@@ -1,0 +1,20 @@
+Model    : LARGEGCN
+Seed     : 7
+Accuracy : 0.9343
+F1-Score : 0.9414
+ROC-AUC  : 0.9865
+
+Threshold: 0.78
+
+              precision    recall  f1-score   support
+
+    No Flood     0.9364    0.9143    0.9252      3336
+       Flood     0.9326    0.9503    0.9414      4164
+
+    accuracy                         0.9343      7500
+   macro avg     0.9345    0.9323    0.9333      7500
+weighted avg     0.9343    0.9343    0.9342      7500
+
+Confusion matrix:
+[[3050  286]
+ [ 207 3957]]

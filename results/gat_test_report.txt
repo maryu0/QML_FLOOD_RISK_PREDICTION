@@ -1,0 +1,20 @@
+Model    : GAT
+Seed     : 7
+Accuracy : 0.9355
+F1-Score : 0.9429
+ROC-AUC  : 0.9868
+
+Threshold: 0.68
+
+              precision    recall  f1-score   support
+
+    No Flood     0.9473    0.9053    0.9258      3336
+       Flood     0.9267    0.9597    0.9429      4164
+
+    accuracy                         0.9355      7500
+   macro avg     0.9370    0.9325    0.9344      7500
+weighted avg     0.9359    0.9355    0.9353      7500
+
+Confusion matrix:
+[[3020  316]
+ [ 168 3996]]

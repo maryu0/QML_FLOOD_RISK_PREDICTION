@@ -1,0 +1,20 @@
+Model    : GRAPHSAGE
+Seed     : 7
+Accuracy : 0.9881
+F1-Score : 0.9893
+ROC-AUC  : 0.9995
+
+Threshold: 0.35
+
+              precision    recall  f1-score   support
+
+    No Flood     0.9830    0.9904    0.9867      3336
+       Flood     0.9923    0.9863    0.9893      4164
+
+    accuracy                         0.9881      7500
+   macro avg     0.9877    0.9884    0.9880      7500
+weighted avg     0.9882    0.9881    0.9881      7500
+
+Confusion matrix:
+[[3304   32]
+ [  57 4107]]

@@ -1,0 +1,18 @@
+\begin{table}[h]
+\centering
+\caption{Graph Neural Networks for Flood Risk Prediction: Quantum vs Classical Baselines (n=3 seeds)}
+\label{tab:flood_results}
+\begin{tabular}{lrrrr}
+\toprule
+\textbf{Model} & \textbf{Params} & \textbf{Accuracy} & \textbf{F1} & \textbf{ROC-AUC} \\
+\midrule
+GCN & 6,721 & $0.938 \pm 0.006$ & $0.943 \pm 0.006$ & $0.988 \pm 0.002$ \\
+Large GCN (6-layer) & 4,993 & $0.935 \pm 0.006$ & $0.940 \pm 0.005$ & $0.987 \pm 0.002$ \\
+GraphSAGE & 13,249 & $0.987 \pm 0.004$ & $0.988 \pm 0.003$ & $0.999 \pm 0.000$ \\
+GAT (4 heads) & 76,929 & $0.936 \pm 0.005$ & $0.941 \pm 0.005$ & $0.987 \pm 0.002$ \\
+ClassicalQGNN (4-qubit ablation) & 3,141 & $0.937 \pm 0.007$ & $0.942 \pm 0.006$ & $0.988 \pm 0.002$ \\
+QGNN (4-qubit) & 3,171 & $0.936 \pm 0.006$ & $0.942 \pm 0.005$ & $0.987 \pm 0.002$ \\
+\textbf{QGNN (8-qubit, proposed)} & 3,463 & $0.937 \pm 0.007$ & $0.943 \pm 0.006$ & \textbf{$0.988 \pm 0.002$} \\
+\bottomrule
+\end{tabular}
+\end{table}

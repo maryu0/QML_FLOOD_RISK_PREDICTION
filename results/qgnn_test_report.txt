@@ -1,0 +1,20 @@
+Model    : QGNN
+Seed     : 7
+Accuracy : 0.9393
+F1-Score : 0.9462
+ROC-AUC  : 0.9878
+
+Threshold: 0.80
+
+              precision    recall  f1-score   support
+
+    No Flood     0.9497    0.9119    0.9304      3336
+       Flood     0.9316    0.9613    0.9462      4164
+
+    accuracy                         0.9393      7500
+   macro avg     0.9407    0.9366    0.9383      7500
+weighted avg     0.9397    0.9393    0.9392      7500
+
+Confusion matrix:
+[[3042  294]
+ [ 161 4003]]
